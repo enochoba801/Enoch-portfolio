@@ -1,6 +1,6 @@
 {
   "name": "enoch-portfolio",
-  "homepage": "https://enochoba801.github.io/Enoch-portfolio  "
+  "homepage": "https://enochoba801.github.io/Enoch-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d "
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
