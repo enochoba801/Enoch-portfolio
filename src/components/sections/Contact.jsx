@@ -21,7 +21,7 @@ export const Contact = () => {
       )
       .then(() => {
         alert("Message sent!");
-        setFormData({ name: "", email: "", message: ""});
+        setFormData({ name: "", email: "", message: "" });
       })
       .catch(() => alert("Oops! Something went wrong, Please try again"));
   };
@@ -31,7 +31,7 @@ export const Contact = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="px-4 w-full max-w-lg mx-auto">
+        <div className="w-full bg-white/5 border border-white/10 rounded px-3 sm:px-4 py-2 sm:py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Get in Touch
           </h2>
