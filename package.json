@@ -1,7 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "enoch-portfolio",
-  "homepage": "https://enochoba801.github.io/Enoch-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
