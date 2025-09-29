@@ -31,7 +31,7 @@ export const Contact = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="w-full bg-white/5 border border-white/10 rounded px-3 sm:px-4 py-2 sm:py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5">
+        <div className="px-4 w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Get in Touch
           </h2>
@@ -43,7 +43,7 @@ export const Contact = () => {
                 name="name"
                 required
                 value={formData.name}
-                className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+                className="w-full bg-white/5 border border-white/10 rounded px-3 sm:px-4 py-2 sm:py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
                 placeholder="Name..."
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
