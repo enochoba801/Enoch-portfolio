@@ -15,7 +15,7 @@ export const Home = () => {
           Hi, I'm Amos-Alegbe Enoch.
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto text-gray-400">
-          I’m a passionate front-end developer specializing in creating
+          I’m a passionate web developer specializing in creating
           beautiful and functional web experiences, with a strong focus on
           responsive design, performance, and seamless user interactions. I love
           turning ideas into clean, scalable code while crafting intuitive
